@@ -2,7 +2,6 @@ package com.arr.enruta;
 
 import android.content.Intent;
 import android.os.Bundle;
-import android.text.TextUtils;
 import android.view.View;
 import android.widget.Toast;
 import androidx.appcompat.app.AppCompatActivity;
@@ -13,7 +12,6 @@ import com.arr.enruta.api.EnviosRetrofit;
 import com.arr.enruta.api.model.Dato;
 import com.arr.enruta.api.model.EnviosResponse;
 import com.arr.enruta.databinding.ActivityMainBinding;
-import com.arr.enruta.models.Codes;
 import com.arr.enruta.utils.dialogs.CheckCodeDialog;
 import com.arr.enruta.utils.dialogs.LoadingDialog;
 import com.arr.enruta.utils.storage.Code;
@@ -22,7 +20,6 @@ import io.reactivex.rxjava3.android.schedulers.AndroidSchedulers;
 import io.reactivex.rxjava3.core.Single;
 import io.reactivex.rxjava3.schedulers.Schedulers;
 import java.util.ArrayList;
-import java.util.List;
 
 public class MainActivity extends AppCompatActivity {
 
