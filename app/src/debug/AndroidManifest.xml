@@ -1,0 +1,11 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.arr.enruta">
+
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE_DATA_SYNC"
+        android:minSdkVersion="34" />
+
+    <application>
+        <!-- Configuración de debug específica, si es necesaria -->
+    </application>
+
+</manifest>

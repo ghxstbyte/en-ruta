@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:id="@+id/root">
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:layout_height="190dp"
+        android:layout_width="190dp"
+        android:layout_marginTop="40dp"
+        app:lottie_rawRes="@raw/delivery_anim"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/icon"
+        app:lottie_autoPlay="true"
+        app:lottie_loop="true" />
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_below="@id/icon"
+        android:textAppearance="?textAppearanceTitleLarge"
+        android:layout_margin="10dp"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true"
+        android:text="No hay pedidos en tránsito" />
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_below="@id/title"
+        android:gravity="center"
+        android:textAppearance="?textAppearanceBodyMedium"
+        android:layout_centerHorizontal="true"
+        android:text="Agrégue su código de rastreo y comience a darle seguimiento a su paquete." />
+
+</RelativeLayout>

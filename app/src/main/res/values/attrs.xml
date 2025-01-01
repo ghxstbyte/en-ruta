@@ -1,0 +1,7 @@
+<resources>
+
+    <declare-styleable name="CustomAppBarBehavior">
+        <!-- Agrega aquí atributos si fueran necesarios -->
+    </declare-styleable>
+    
+</resources>
