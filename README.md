@@ -2,9 +2,9 @@
 
 Application created to track packages operated by the Cuban Postal Company.
 
-> [!Atention]
+> [!important]
 >
-> En Ruta ni su creador tienen vínculo alguno con Correos de Cuba, sólo se usa su API para rastrear paquetes operados por la empresa.
+> En Ruta ni su creador tienen vínculo alguno con Correos de Cuba.
 
 
 ### App Example 
